@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #5c5d67;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('../images/hero-background.jpg') no-repeat center top/cover;
+    color: #94ae89;
+    text-align: center;
+    padding: 60px 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin: 0 0 20px;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin: 0 0 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #94ae89;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #748e69;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+}
+
+.feature {
+    flex: 1;
+    max-width: 300px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.feature .cta-button {
+    font-size: 0.875rem;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 40px 20px;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #fff;
+    border-left: 5px solid #94ae89;
+    border-radius: 5px;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+/* Recent Updates Section */
+.recent-updates {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+}
+
+.recent-updates h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.recent-updates article {
+    margin-bottom: 20px;
+}
+
+.recent-updates h3 {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.recent-updates p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+}
+
+h3 a {
+    color: #94ae89;
+}

@@ -1,0 +1,62 @@
+/* Main content styles */
+main {
+    /* padding: 2rem;
+    background-color: #f4f4f4; Light background to distinguish the section */
+}
+
+/* Health Facts Section */
+#health-facts {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto; /* Center the content */
+}
+
+#health-facts h1 {
+    font-size: 2.5rem;
+    color: #94ae89;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+#health-facts p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #5c5d67;
+}
+
+/* Individual Fact Styles */
+.fact {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid #ddd; /* Separator between facts */
+}
+
+.fact:last-child {
+    border-bottom: none; /* Remove border for the last fact */
+}
+
+.fact h2 {
+    font-size: 1.8rem;
+    color: #94ae89;
+    margin-bottom: 0.5rem;
+}
+
+.fact p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.fact img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}

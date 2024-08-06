@@ -1,0 +1,66 @@
+main {
+    /* padding: 2rem;
+    background-color: #f4f4f4; Light background to distinguish the section */
+}
+
+#resource-center {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#resource-center h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #94ae89;
+}
+
+#resource-center p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #5c5d67;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#resource-center section h2 {
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #94ae89;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+}
+
+#resource-center section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#resource-center section ul li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #5c5d67;
+}
+
+#resource-center section ul li a {
+    color: #94ae89;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+#resource-center section ul li a:hover {
+    color: #748e69;
+}
+
+#resource-center strong {
+    color: #444;
+}
+
+#resource-center em {
+    font-style: italic;
+}
