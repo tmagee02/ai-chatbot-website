@@ -8,7 +8,7 @@ export default function Home() {
         <main>
             {/* <!-- Hero Section --> */}
             <section class="hero">
-                <h1>Welcome to Health & Wellness Hub</h1>
+                <h1>Welcome to CM MediGuide</h1>
                 <p>
                     Your go-to source for health diagnostics, wellness tips, and
                     trusted resources.
